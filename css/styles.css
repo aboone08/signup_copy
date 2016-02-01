@@ -1,6 +1,19 @@
 div {
   font-family: "Helvetica Neue";
   font-size: 14px;
+  color: #66757f;
+  }
+
+div.text {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  color: #66757f;
+  }
+
+p {
+  text-align: left;
+  padding-left: 3.3in;
+  font-size: 12px;
   }
 
 ul {
@@ -10,9 +23,10 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to right, #0099FF 0%, #3fc094 100%);
+  background-image: linear-gradient(to right, #55acee 0%, #3fc094 100%);
   background-blend-mode: color-dodge;
-  border: inset #B0C4DE 2px;
+  border-bottom: solid #55acee 1px;
+  max-height: 45px;
 }
 
 li {
@@ -28,7 +42,7 @@ li a {
 }
 
 li a:hover {
-  color: #0099FF;
+  color: #55acee;
 }
 
 body {
@@ -36,63 +50,64 @@ body {
     width: 100%;
     border: none
     padding: 20px;
-    position: center;
+}
+
+header {
+  font-size: 28px;
+  margin-top: 110px;
+  padding: 20px;
+  border: none;
+  width: 100%;
+  text-align: center;
 }
 
 input[type="text"] {
   position: center;
-  width: 33%;
+  width: 400px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #B0C4DE;
+  border: 1px solid #e1e8ed;
   border-radius: 4px;
   background-color: #FFFFFF;
   color: white;
+  font-size: 18px;
 }
 
 input[type="email"] {
   position: center;
-  width: 33%;
+  width: 400px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #B0C4DE;
+  border: 1px solid #e1e8ed;
   border-radius: 4px;
   background-color: #FFFFFF;
   color: white;
+  font-size: 18px;
 }
 
 input[type="password"] {
   position: center;
-  width: 33%;
+  width: 400px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #B0C4DE;
+  border: 1px solid #e1e8ed;
   border-radius: 4px;
   background-color: #FFFFFF;
   color: white;
+  font-size: 18px;
 }
 
 button {
-  background-color: #0099FF;
+  background-color: #55acee;
   color: white;
   border-radius: 5px;
+  border: none;
   margin: 8px 0;
   position: center;
-  width: 33%;
+  width: 400px;
   padding: 12px 20px;
+  font-size: 18px;
   }
-
-div.text {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-}
-
-
-p {
-  color: gray;
-  text-align: left;
-  padding-left: 4.6in;
-}
